@@ -159,8 +159,6 @@ class OsgiScalaCompiler(val engine: TemplateEngine, val bundle: Bundle)
         }
 
         override def classPath = internalClassPath
-        
-        override def rootLoader = new loaders.JavaPackageLoader(internalClassPath.asInstanceOf[ClassPath[AbstractFile]])
 
         def createClassPath[T](original: ClassPath[T]) = {
           var result = ListBuffer(original)
