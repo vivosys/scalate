@@ -46,7 +46,7 @@
     <jetty-version>7.2.1.v20101111</jetty-version>
     <logback-version>0.9.26</logback-version>
     <scala-version>2.9.0-1</scala-version>
-    <scalate-version>1.6.0-SNAPSHOT</scalate-version>
+    <scalate-version>1.6.0.vivo_4</scalate-version>
     <servlet-api-version>2.5</servlet-api-version>
 
     <!-- plugins -->
