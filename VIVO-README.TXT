@@ -16,8 +16,8 @@ URL https://github.com/vivosys/scalate
     REPO_ID=vivosys-repo
     REPO_URL=https://tools.vivosys.com/artifactory/ext-release-local
     mvn \
-       -Dmaven.test.skip=true
-       -Dgpg.skip 
+       -Dmaven.test.skip=true \
+       -Dgpg.skip \
        -Pdownload \
        -DaltDeploymentRepository=$REPO_ID::default::$REPO_URL \
        -pl scalate-util,scalate-core,scalate-test,scalate-pegdown \
